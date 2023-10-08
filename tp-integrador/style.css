@@ -1,0 +1,70 @@
+:root{
+    --blanco: #F0F3F4;
+    --colorHeader: #2E4053;
+    --grisSubtitulo: #808B96;
+    --footer: #1F618D;
+    --btnenviar: #58D68D;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: var(--blanco);
+    width: 100px;
+}
+
+header{
+    height: 100px;
+    background: var(--colorHeader);
+}
+
+.bsas__Octubre{
+    background-color: var(--colorHeader);
+}
+
+.nav-item{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.form, .parrafo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.parrafo{
+    color: var(--blanco);
+}
+
+.subtitulo__orador{
+    color: var(--colorHeader);
+}
+
+.texto{
+    color: var(--grisSubtitulo);
+}
+
+#btnenviar{
+    color: var(--blanco);
+    background-color: var(--btnenviar);
+    font-size: 20px;
+}
+
+footer{
+    background-color: var(--footer);
+    height: 100px;
+}
+
+#footer_nav_link{
+    color: var(--blanco);
+}
