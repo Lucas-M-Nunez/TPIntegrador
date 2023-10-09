@@ -22,12 +22,16 @@ header{
     background: var(--colorHeader);
 }
 
+/* .imagen{
+    opacity: 50%;
+} */
+
 .bsas__Octubre{
     background-color: var(--colorHeader);
 }
 
 .nav-item{
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -68,3 +72,4 @@ footer{
 #footer_nav_link{
     color: var(--blanco);
 }
+
