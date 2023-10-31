@@ -30,6 +30,7 @@
               href="#"
               class="nav-link active link-light link-underline-opacity-25 link-underline-opacity-100-hover fs-6"
               aria-current="page"
+              id="Conferencia"
               >La conferencia</a
             >
           </li>
@@ -37,6 +38,7 @@
             <a
               href="#"
               class="nav-link link-secondary link-underline-opacity-25"
+              id="losOradores"
               >Los oradores</a
             >
           </li>
@@ -44,6 +46,7 @@
             <a
               href="#"
               class="nav-link link-secondary link-underline-opacity-25"
+              id="lugarYFecha"
               >El lugar y la fecha</a
             >
           </li>
@@ -51,6 +54,7 @@
             <a
               href="#"
               class="nav-link link-secondary link-underline-opacity-25"
+              id="Conviertete"
               >Conviértete en orador</a
             >
           </li>
@@ -238,7 +242,12 @@
             </div>
             <div class="d-flex flex-column w-25">
               <label for="categoria" class="m-3">Categoría</label>
-              <input type="email" class="form-control w-100 p-2 m-2" placeholder="Categoría" id="categoria">
+              <select id="categoria" class="form-select w-100 p-2 m-2" aria-label="Default select example">
+                <option selected>Elige la categoría</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="trainee">Trainee</option>
+                <option value="junior">Junior</option>
+              </select>
             </div>
           </div>
         </form>
@@ -274,6 +283,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="JS/descuentos.js"></script>
     <script src="JS/script.js"></script>
   </body>
 </html>
