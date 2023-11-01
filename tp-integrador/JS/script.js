@@ -13,7 +13,6 @@ const navConviertete = document.getElementById('Conviertete');
 
 btnBuyTickets.addEventListener('click', (e) => {
     e.preventDefault();
-
     sectionCarrucel.classList.add('inactive');
     sectionOradores.classList.add('inactive');
     sectionBsAs.classList.add('inactive');
@@ -23,7 +22,6 @@ btnBuyTickets.addEventListener('click', (e) => {
 
 btnCarroucelBuyTickets.addEventListener('click', (e) => {
     e.preventDefault();
-
     sectionCarrucel.classList.add('inactive');
     sectionOradores.classList.add('inactive');
     sectionBsAs.classList.add('inactive');
@@ -32,7 +30,8 @@ btnCarroucelBuyTickets.addEventListener('click', (e) => {
 });
 
 
-navConferencia.addEventListener('click', () => {
+navConferencia.addEventListener('click', (e) => {
+    e.preventDefault();
     sectionCarrucel.classList.remove('inactive');
     sectionOradores.classList.remove('inactive');
     sectionBsAs.classList.remove('inactive');
@@ -40,7 +39,8 @@ navConferencia.addEventListener('click', () => {
     sectionCompraTickets.classList.add('inactive');
 });
 
-navLosOradores.addEventListener('click', () => {
+navLosOradores.addEventListener('click', (e) => {
+    e.preventDefault();
     sectionCarrucel.classList.remove('inactive');
     sectionOradores.classList.remove('inactive');
     sectionBsAs.classList.remove('inactive');
@@ -48,7 +48,8 @@ navLosOradores.addEventListener('click', () => {
     sectionCompraTickets.classList.add('inactive');
 });
 
-navLugarYFecha.addEventListener('click', () => {
+navLugarYFecha.addEventListener('click', (e) => {
+    e.preventDefault();
     sectionCarrucel.classList.remove('inactive');
     sectionOradores.classList.remove('inactive');
     sectionBsAs.classList.remove('inactive');
@@ -56,7 +57,8 @@ navLugarYFecha.addEventListener('click', () => {
     sectionCompraTickets.classList.add('inactive');
 });
 
-navConviertete.addEventListener('click', () => {
+navConviertete.addEventListener('click', (e) => {
+    e.preventDefault();
     sectionCarrucel.classList.remove('inactive');
     sectionOradores.classList.remove('inactive');
     sectionBsAs.classList.remove('inactive');

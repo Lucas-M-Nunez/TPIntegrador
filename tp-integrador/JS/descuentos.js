@@ -1,4 +1,5 @@
 const btnResumen = document.getElementById('btnResumen');
+const btnBorrar = document.getElementById('btnBorrar');
 const spanTotal = document.getElementById('total');
 
 const valorTicket = 200;
@@ -38,7 +39,26 @@ const aplicarDescuento = () => {
     }
 }
 
+
+
 btnResumen.addEventListener('click', (e) => {
     e.preventDefault();
     aplicarDescuento();
 });
+
+btnBorrar.addEventListener('click', (e) => {
+    e.preventDefault();
+    const cantidad = document.getElementById('cantidad');
+    const categoria = document.getElementById('categoria');
+    const correo = document.getElementById('correo');
+    const nombre = document.getElementById('Nombre');
+    const apellido = document.getElementById('Apellido');
+
+    nombre.value = "";
+    cantidad.value = ""; 
+    correo.value = "";
+    apellido.value = "";
+    categoria.value = 'Elige la categoría';
+
+})
+
