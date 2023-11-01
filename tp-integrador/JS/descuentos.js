@@ -59,6 +59,6 @@ btnBorrar.addEventListener('click', (e) => {
     correo.value = "";
     apellido.value = "";
     categoria.value = 'Elige la categoría';
-
+    spanTotal.innerHTML = "";
 })
 
